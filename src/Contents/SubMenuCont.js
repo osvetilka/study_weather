@@ -2,7 +2,6 @@ import React from "react";
 import './SubMenuCont.css';
 
 
-
 const SubMenuCont = () => (
     <div className="sub-menu-cont" >
         {/*<Searchbar cityName='Введите город'/>                */}
@@ -17,6 +16,7 @@ const SubMenu = () => (
             <a href="" class="subnav-menu-item">3 дня</a>
             <a href="" class="subnav-menu-item">7&nbsp;дней</a>
             <a href="" class="subnav-menu-item">10&nbsp;дней</a>             
+            <a href="" class="subnav-menu-item">Месяц</a>             
         </div>
     </div>   
 )
